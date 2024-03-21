@@ -124,7 +124,7 @@ window.addEventListener("scroll", function(){
         currentNumber = increment; // Restart after reaching finalValue
       }
       element.textContent = currentNumber.toFixed(1) + suffix;
-    }, 100); // Adjust interval speed as needed
+    }, 300); // Adjust interval speed as needed
   }
   
   function checkVisibilityAndCount() {
